@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <title>Neon Lighting</title>
+</head>
+<body>
+  <div class="container">
+    <div class="settings" id="settings">
+      <label for="color1">Color 1:</label>
+      <input type="color" id="color1" class="color-input" value="#00ff00">
+      
+      <label for="color2">Color 2:</label>
+      <input type="color" id="color2" class="color-input" value="#0000ff">
+
+      <label for="color3">Color 3:</label>
+      <input type="color" id="color3" class="color-input" value="#ff0000">
+
+      <label for="gradientDirection">Gradient Direction:</label>
+      <select id="gradientDirection">
+        <option value="to right">Left to Right</option>
+        <option value="to bottom">Top to Bottom</option>
+        <option value="45deg">Diagonal</option>
+      </select>
+
+      <label for="animationToggle">Enable Animation:</label>
+      <input type="checkbox" id="animationToggle" checked>
+    </div>
+
+    <div class="content" id="content">
+      <!-- <h1>Neon Lighting</h1> -->
+      <!-- <p>Press Esc to toggle settings</p> -->
+    </div>
+  </div>
+</body>
+</html>
